@@ -9,7 +9,6 @@ const outfit: NextFont = Outfit({ subsets: ["latin"], weight: ["400", "700"] });
 export const metadata: Metadata = {
   title: "QR Code",
   description: "QR Code Component",
-  viewport: { width: "device-width", initialScale: 1 },
 };
 
 export default function RootLayout({
